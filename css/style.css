@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* common style section here start */
+
+.btn-control {
+    text-align: center;
+}
+
+.btn {
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/*-------- main banner style section start here -------------*/
+
+.main-baner-bg {
+    height: 919px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-baner-bg .banner-conten {
+    width: 1023px;
+
+}
+
+.main-baner-bg .banner-conten .sub-title {
+
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 16px;
+
+
+}
+
+.main-baner-bg .banner-conten .banner-title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.main-baner-bg .banner-conten .baner-description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+
+}
+
+/* ---------- card-container style start here ------------------ */
+
+.card-container {
+    height: 900px;
+    width: 100%;
+}
+
+.card-body {
+    width: 80%;
+    height: 742px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-info p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.6;
+}
+
+.card-info h3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    padding: 0 315px;
+    margin: 16px 0 48px 0;
+}
+
+.Total-card {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 424px;
+    height: 283px;
+    margin-bottom: 32px;
+}
+
+.card button {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    border: none;
+    padding: 14px 32px;
+}
+
+.card h4 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0;
+}
+
+.card p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+
+}
+
+/* ----- blog banner post style here  --------*/
+
+.banner-post {
+    display: flex;
+    margin: 50px 0;
+
+}
+
+.banner-image img {
+    width: 960px;
+    height: 671px;
+    border-radius: 5px;
+}
+
+.post-banner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.post-banner-info h3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    padding: 0 80px;
+    text-align: center;
+}
+
+.post-banner-info p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.6;
+    padding: 24px 0;
+}
+
+.post-banner-info h4 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    border: none;
+    padding: 15px 0;
+    border-radius: 10px;
+    border-bottom: 2px solid rgba(16, 16, 16, 0.2);
+    border-top: 2px solid rgba(16, 16, 16, 0.2);
+    width: 100%;
+    margin-bottom: 32px;
+
+}
+
+.social-icon {
+    display: flex;
+    gap: 30px;
+}
+
+.social-icon img {
+    width: 45px;
+    height: 45px;
+}
+
+/* ------- blog banner post style ended ------------*/
+
+/* ---------- footer section style here ---------- */
+
+.footer-bg {
+    height: 671px;
+    background-image: linear-gradient(rgba(245, 245, 245, 0.842) 0%, rgba(233, 233, 233, 0.733) 100%), url(../assets/social-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title h3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0 450px;
+}
+
+.footer-title p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0 32px 0;
+    opacity: 0.6;
+}
+
+.footer-title h4 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding: 15px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgba(16, 16, 16, 0.2);
+    border-top: 2px solid rgba(16, 16, 16, 0.2);
+    width: 50%;
+    margin: auto;
+}
+
+.bootom-icon{
+    margin-top: 32px;
+}
